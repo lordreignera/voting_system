@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-    <title>Login - {{ config('app.name', 'Laravel') }}</title>
+    <title>Login - {{ config('app.name', 'E-VotePortal') }}</title>
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -174,7 +174,7 @@
             <!-- Header with Voting Icon -->
             <div class="login-header">
                 <i class="mdi mdi-vote-outline voting-icon"></i>
-                <h1 class="login-title">Secure Voting System</h1>
+                <h1 class="login-title">E-VotePortal</h1>
                 <p class="login-subtitle">Welcome back! Please sign in to your account</p>
             </div>
             

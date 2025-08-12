@@ -1,11 +1,11 @@
 <!-- partial:partials/_sidebar.html -->
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-        <a class="sidebar-brand brand-logo" href="{{ route('admin.dashboard') }}">
-            <img src="{{ asset('admin-assets/assets/images/logo.svg') }}" alt="logo" />
-        </a>
-        <a class="sidebar-brand brand-logo-mini" href="{{ route('admin.dashboard') }}">
-            <img src="{{ asset('admin-assets/assets/images/logo-mini.svg') }}" alt="logo" />
+        <a class="sidebar-brand brand-logo" href="{{ route('admin.dashboard') }}" style="display: flex; align-items: center; text-decoration: none;">
+            <div style="background: white; border-radius: 8px; padding: 8px; margin-right: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                <i class="mdi mdi-vote" style="font-size: 32px; color: #2f8cea;"></i>
+            </div>
+            <span style="color: white; font-weight: 600; font-size: 18px;">E-VotePortal</span>
         </a>
     </div>
     <ul class="nav">

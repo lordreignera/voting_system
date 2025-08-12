@@ -97,8 +97,8 @@
                         <img src="{{ asset('admin-assets/assets/images/dashboard/Group126@2x.png') }}" class="gradient-corona-img img-fluid" alt="">
                     </div>
                     <div class="col-5 col-sm-7 col-xl-8 p-0">
-                        <h4 class="mb-1 mb-sm-0">Welcome, {{ Auth::user()->name }}!</h4>
-                        <p class="mb-0 font-weight-normal d-none d-sm-block">You're logged in as {{ Auth::user()->roles->first()->name ?? 'Super Admin' }}. Ready to manage your voting system!</p>
+                        <h4 class="mb-1 mb-sm-0">Welcome to E-VotePortal!</h4>
+                        <p class="mb-0 font-weight-normal d-none d-sm-block">You're logged in as {{ Auth::user()->roles->first()->name ?? 'Super Admin' }}. Ready to manage your electronic voting platform!</p>
                     </div>
                     <div class="col-3 col-sm-2 col-xl-2 ps-0 text-center">
                         <span>
