@@ -1,0 +1,134 @@
+/* Custom Voting System Styles - Light Theme */
+
+/* Override dark theme with light theme */
+body {
+    background-color: #f8f9fa !important;
+}
+
+/* Light sidebar styling */
+.sidebar {
+    background: linear-gradient(180deg, #2f8cea 0%, #1e6bb8 100%) !important;
+    color: white !important;
+}
+
+.sidebar .nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.sidebar .nav .nav-item .nav-link:hover {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.sidebar .nav .nav-item.active .nav-link {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Navbar light theme */
+.navbar {
+    background-color: white !important;
+    border-bottom: 1px solid #e9ecef !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #495057 !important;
+}
+
+/* Cards light theme */
+.card {
+    background-color: white !important;
+    border: 1px solid #e9ecef !important;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+/* Content wrapper light theme */
+.content-wrapper {
+    background-color: #f8f9fa !important;
+}
+
+/* Button primary with light blue */
+.btn-primary {
+    background-color: #2f8cea !important;
+    border-color: #2f8cea !important;
+}
+
+.btn-primary:hover {
+    background-color: #1e6bb8 !important;
+    border-color: #1e6bb8 !important;
+}
+
+/* Text colors */
+.text-primary {
+    color: #2f8cea !important;
+}
+
+/* Additional custom styles for voting system specific components */
+.voting-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.voting-card:hover {
+    transform: translateY(-2px);
+}
+
+.status-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.quick-action-btn {
+    margin-bottom: 1rem;
+}
+
+/* Custom icon styles */
+.icon-item {
+    font-size: 1.5rem;
+}
+
+/* Voting system specific color overrides */
+.text-voting-primary {
+    color: #2f8cea !important;
+}
+
+.bg-voting-primary {
+    background-color: #2f8cea !important;
+}
+
+.btn-voting-primary {
+    background-color: #2f8cea;
+    border-color: #2f8cea;
+    color: white;
+}
+
+.btn-voting-primary:hover {
+    background-color: #1e6bb8;
+    border-color: #1e6bb8;
+}
+
+/* Light theme gradient card */
+.corona-gradient-card {
+    background: linear-gradient(135deg, #2f8cea 0%, #4fa8f0 100%) !important;
+    color: white !important;
+}
+
+/* Profile section in sidebar */
+.sidebar .nav .nav-item.profile .profile-desc {
+    color: white !important;
+}
+
+.sidebar .nav .nav-item.profile .profile-desc .profile-name h5 {
+    color: white !important;
+}
+
+.sidebar .nav .nav-item.profile .profile-desc .profile-name span {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Footer light theme */
+.footer {
+    background-color: white !important;
+    border-top: 1px solid #e9ecef !important;
+    color: #6c757d !important;
+}

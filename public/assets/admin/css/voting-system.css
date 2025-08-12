@@ -1,0 +1,88 @@
+/* Custom CSS for Voting System Admin */
+
+/* Override any Tailwind conflicts for admin area */
+.admin-layout {
+    font-family: 'Assistant', sans-serif;
+}
+
+/* Additional voting system specific styles */
+.voting-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.election-status {
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.election-status.active {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.election-status.upcoming {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.election-status.completed {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Fix for Bootstrap + Tailwind conflicts in admin area */
+.admin-layout .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.admin-layout .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Ensure admin icons render properly */
+.admin-layout .mdi {
+    font-family: 'Material Design Icons' !important;
+}
+
+/* Quick action buttons */
+.quick-action-btn {
+    transition: transform 0.2s ease-in-out;
+}
+
+.quick-action-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Voting system specific colors */
+:root {
+    --voting-primary: #667eea;
+    --voting-secondary: #764ba2;
+    --voting-success: #28a745;
+    --voting-warning: #ffc107;
+    --voting-danger: #dc3545;
+    --voting-info: #17a2b8;
+}
